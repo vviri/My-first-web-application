@@ -17,7 +17,7 @@ let image3 = {
 };
 let image4 = {
     photo: "Images/d-yura-timoshenko-7WFJmfk-XIA-unsplash.jpg",
-    title: "Clean design, geometrical minimalism of Geidar Aliev Center",
+    title: "Clean, geometrial design of Geidar Aliev Center",
     description: "Photo made by Yura Timosenko, taken in Baku",
 };
 let image5 = {
