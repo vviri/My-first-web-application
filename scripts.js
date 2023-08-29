@@ -88,11 +88,11 @@ $('.leftArrow').click(() => {
 
 
  imagesData.forEach((img) => {
-    $('#thumbnails').append('<div class="thumbsContainer"><img class="smallBox" src="' + img.photo + '"><div class="popUpText">' + img.title + '</div></div>');
+    $('#thumbnails').append('<div class="thumbsContainer"><img class="smallPic" src="' + img.photo + '"><div class="note">' + img.title + '</div></div>');
 });
 
-$('#thumbnails').on('click', '.smallBox', function () {
-    currentNum = $(this).index('.smallBox');
+$('#thumbnails').on('click', '.smallPic', function () {
+    currentNum = $(this).index('.smallPic');
     addBigImage(currentNum);
 });
 
