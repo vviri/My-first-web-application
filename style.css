@@ -146,3 +146,17 @@ height:50px;
     padding: 3px;
     border-radius: 3px;
   }
+
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    background-color: rgba(0,0,0,0.7);
+    height: 50px;
+    padding-left:30px;
+    padding-right:30px;
+     position: fixed;
+    bottom: 0; 
+    left:0;
+    right:0;
+  }
