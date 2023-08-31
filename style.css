@@ -160,3 +160,76 @@ height:50px;
     left:0;
     right:0;
   }
+
+
+
+  /* For tablets */
+@media only screen and (max-width: 1024px) {
+  #box {
+    width: 700px;
+    height: 300px;
+  }
+  
+  #grayContainer {
+    height: 80px;
+  }
+  
+  #photoTitle {
+    margin: 2px;
+    padding: 3px;
+    font-size: 25px;
+  }
+  
+  #photoDescription {
+    margin-top: 40px;
+    padding: 3px;
+    font-size: 15px;
+  }
+  
+  #thumbnails {
+    width: 500px;
+  }
+  
+  /* For mobile phones */
+  @media only screen and (max-width: 767px) {
+    .header {
+      height:60px;
+    }
+#house{
+  width:30px;
+  height:30px;
+}
+
+  #box {
+    width: 300px;
+    height: 180px;
+  }
+    
+  .mainPic {
+    width: 100%;
+    height: 180px;
+  }
+  
+  #grayContainer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    bottom: 220px;
+    position: absolute;
+  }
+  
+  #photoTitle {
+    padding: 2px;
+    font-size: 15px;
+  }
+  
+  #photoDescription {
+    padding: 1px;
+    font-size: 8px;
+
+  }
+    
+  #thumbnails {
+    width: 600px;
+    padding: 350px 0px 0px 0px;
+  }
